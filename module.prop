@@ -1,7 +1,7 @@
 id=natrium-mods
 name=Xiaomi Natrium mods
-version=v7.6
-versionCode=76
+version=v7.7
+versionCode=77
 author=Crescendo
 description=Various device mods for Xiaomi Mi 5S Plus (natrium) running Nougat MIUI 9
 minMagisk=17000
