@@ -63,6 +63,7 @@ REPLACE="
 /system/media/audio/ui/camera_click.ogg
 /system/media/audio/ui/camera_focus.ogg
 /system/usr/keylayout/synaptics_dsx.kl
+/system/vendor/bin/xtra-daemon
 /system/vendor/lib64/libbt-vendor.so
 "
 
