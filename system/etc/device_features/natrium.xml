@@ -270,4 +270,6 @@
     <bool name="enable_flash_global">true</bool>
     <!--whether support stereo in camera-->
     <bool name="is_support_stereo">true</bool>
+	<!--whether support front bokeh in camera-->
+    <bool name="support_front_bokeh">true</bool>
 </features>
