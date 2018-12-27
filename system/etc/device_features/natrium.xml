@@ -270,6 +270,22 @@
     <bool name="enable_flash_global">true</bool>
     <!--whether support stereo in camera-->
     <bool name="is_support_stereo">true</bool>
+	<!--whether support portrait in camera-->
+    <bool name="is_support_portrait">true</bool>
+    <!--whether support add watermark on bottom left of picture-->
+    <bool name="support_picture_watermark">true</bool>
 	<!--whether support front bokeh in camera-->
     <bool name="support_front_bokeh">true</bool>
+	<!--whether camera support portrait mode switch -->
+    <bool name="camera_is_support_portrait_front">true</bool>
+    <!--whether front camera support mfnr with face beauty-->
+    <bool name="support_front_beauty_mfnr">true</bool>
+    <!--whether camera support screen light-->
+    <bool name="support_screen_light">true</bool>
+    <!-- whether support dynamic light spot in portrait module-->
+    <bool name="support_camera_dynamic_light_spot">true</bool>
+    <!-- whether camera support lens dirty detect-->
+    <bool name="support_lens_dirty_detect">true</bool>
+    <!-- whether support bluetooth fast startup -->
+    <bool name="support_bluetooth_boost">true</bool>												   
 </features>
