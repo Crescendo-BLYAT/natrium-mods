@@ -58,6 +58,7 @@ REPLACE="
 /system/media/audio/ui/camera_click.ogg
 /system/media/audio/ui/camera_focus.ogg
 /system/usr/keylayout/synaptics_dsx.kl
+/system/vendor/etc/izat.conf
 "
 
 ##########################################################################################
