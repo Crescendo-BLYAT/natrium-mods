@@ -49,10 +49,10 @@ fi
 
 # Detect device
 if getprop ro.product.name | grep -iq natrium; then
-  ui_print "    Natrium detected! - script by: suwakowww"
+  ui_print "    Natrium detected!    "
 else
   # If device not matched, abort it.
-  abort "    This module for natrium only! - script by: suwakowww"
+  abort "    This module for natrium only!    "
 fi
 
 # Use alternative image if in BOOTMODE
