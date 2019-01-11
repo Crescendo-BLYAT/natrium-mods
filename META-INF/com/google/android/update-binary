@@ -47,14 +47,6 @@ else
   require_new_magisk
 fi
 
-# Detect device
-if getprop ro.product.name | grep -iq natrium; then
-  ui_print "    Natrium detected!    "
-else
-  # If device not matched, abort it.
-  abort "    This module for natrium only!    "
-fi
-
 # Use alternative image if in BOOTMODE
 $BOOTMODE && IMG=$NVBASE/magisk_merge.img
 
@@ -111,6 +103,14 @@ mount_magisk_img
 # Create mod paths
 rm -rf $MODPATH 2>/dev/null
 mkdir -p $MODPATH
+
+# Detect device
+if getprop ro.product.name | grep -iq natrium; then
+  ui_print "- Natrium detected!"
+else
+  # If device not matched, abort it.
+  abort "- This module for natrium only!"
+fi
 
 # Extract files to system. Use your own method if needed
 ui_print "- Extracting module files"
