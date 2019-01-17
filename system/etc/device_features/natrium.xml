@@ -39,7 +39,7 @@
     <!--whether the device supports led light-->
     <bool name="support_led_light">true</bool>
     <!--whether the device supports button light-->
-    <bool name="support_button_light">true</bool>
+    <bool name="support_button_light">false</bool>
     <!--whether the device supports emulated storage-->
     <bool name="support_emulated_storage">true</bool>
     <!--whether the device supports internal sdcard-->
@@ -190,7 +190,7 @@
     <bool name="support_gesture_wakeup">true</bool>
     <!-- whether support edge handgrip -->
     <bool name="support_edge_handgrip">false</bool>
-    <!--wheater support validate device when syste upadte -->
+    <!--wheater support validate device when system update -->
     <bool name="support_ota_validate">true</bool>
     <!--whether show my device-->
     <bool name="support_my_device">true</bool>
@@ -254,12 +254,6 @@
     <float name="godzillaui_font_scale">1.40</float>
     <!-- support nfc -->
     <bool name="support_nfc">true</bool>
-    <!--In these app access camera, add beautify parameter -->
-    <string-array name="add_still_beautify_list">
-        <item>com.tencent.mm</item>
-        <item>com.tencent.mobileqq</item>
-        <item>com.skype.rover</item>
-    </string-array>
     <!--still beautify value for 3rd party call-->
     <string name="extra_still_beautify_value">i:2</string>
     <!--min previewsize value for video call case-->
@@ -270,13 +264,13 @@
     <bool name="enable_flash_global">true</bool>
     <!--whether support stereo in camera-->
     <bool name="is_support_stereo">true</bool>
+    <!--whether support front bokeh in camera-->
+    <bool name="support_front_bokeh">true</bool>
+	<!--whether support add watermark on bottom left of picture-->
+    <bool name="support_picture_watermark">true</bool>
 	<!--whether support portrait in camera-->
     <bool name="is_support_portrait">true</bool>
-    <!--whether support add watermark on bottom left of picture-->
-    <bool name="support_picture_watermark">true</bool>
-	<!--whether support front bokeh in camera-->
-    <bool name="support_front_bokeh">true</bool>
-	<!--whether camera support portrait mode switch -->
+    <!--whether camera support portrait mode switch -->
     <bool name="camera_is_support_portrait_front">true</bool>
     <!--whether front camera support mfnr with face beauty-->
     <bool name="support_front_beauty_mfnr">true</bool>
