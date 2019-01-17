@@ -4,3 +4,4 @@
 qemu.hw.mainkeys=0
 camera.disable_zsl_mode=0
 persist.camera.HAL3.enabled=1
+persist.camera.eis.enable=1
