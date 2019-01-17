@@ -2,3 +2,5 @@
 # Example: Change dpi
 # ro.sf.lcd_density=320
 qemu.hw.mainkeys=0
+camera.disable_zsl_mode=0
+persist.camera.HAL3.enabled=1
