@@ -8,5 +8,6 @@ This module activate many features that's deliberately disabled by Xiaomi even t
 4. Replace system emoji font with latest Android Pie's emoji.
 5. iZat configuration mods.
 6. Enable Camera2 API, EIS & Zero Shutter Lag.
+7. GPU tweak.
 
 Script by: suwakowww @ GitHub

@@ -5,3 +5,7 @@ qemu.hw.mainkeys=0
 camera.disable_zsl_mode=0
 persist.camera.HAL3.enabled=1
 persist.camera.eis.enable=1
+debug.sf.hw=1
+debug.composition.type=c2d
+persist.sys.ui.hw=1
+persist.sys.composition.type=c2d
