@@ -54,7 +54,6 @@ print_modname() {
 
 REPLACE="
 /system/etc/device_features/natrium.xml
-/system/fonts/NotoColorEmoji.ttf
 /system/media/audio/ui/camera_click.ogg
 /system/media/audio/ui/camera_focus.ogg
 /system/usr/keylayout/synaptics_dsx.kl
