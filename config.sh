@@ -28,10 +28,10 @@ AUTOMOUNT=true
 PROPFILE=true
 
 # Set to true if you need post-fs-data script
-POSTFSDATA=false
+POSTFSDATA=true
 
 # Set to true if you need late_start service script
-LATESTARTSERVICE=false
+LATESTARTSERVICE=true
 
 ##########################################################################################
 # Installation Message
@@ -82,3 +82,21 @@ set_permissions() {
 # difficult for you to migrate your modules to newer template versions.
 # Make update-binary as clean as possible, try to only do function calls in it.
 
+detect_origin() {
+  if ! $BOOTMODE; then
+    abort "Please install via Magisk Manager."
+  fi
+  orig=$(app_process -Djava.class.path=$INSTALLER/Navigation.dex $INSTALLER Navigation)
+  if [ -f /sbin/.core/img/$MODID/system/vendor/overlay/NavigationBar/NavigationBar.apk ]; then
+    update=true
+  else
+    update=false
+  fi
+  if ($orig && $update) || (! $orig && ! $update); then
+    rm -f /sbin/.core/img/$MODID/system/vendor/overlay/NavigationBar/NavigationBar_hide.apk
+    mv /sbin/.core/img/$MODID/system/vendor/overlay/NavigationBar/NavigationBar_show.apk /sbin/.core/img/$MODID/system/vendor/overlay/NavigationBar/NavigationBar.apk
+  else
+    rm -f /sbin/.core/img/$MODID/system/vendor/overlay/NavigationBar/NavigationBar_show.apk
+    mv /sbin/.core/img/$MODID/system/vendor/overlay/NavigationBar/NavigationBar_hide.apk /sbin/.core/img/$MODID/system/vendor/overlay/NavigationBar/NavigationBar.apk
+  fi
+}

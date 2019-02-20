@@ -1,7 +1,6 @@
 # This file will be read by resetprop
 # Example: Change dpi
 # ro.sf.lcd_density=320
-qemu.hw.mainkeys=0
 camera.disable_zsl_mode=0
 persist.camera.HAL3.enabled=1
 persist.camera.eis.enable=1
