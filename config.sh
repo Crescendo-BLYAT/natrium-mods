@@ -59,6 +59,7 @@ REPLACE="
 /system/media/audio/ui/camera_focus.ogg
 /system/usr/keylayout/synaptics_dsx.kl
 /system/vendor/etc/izat.conf
+/system/vendor/etc/thermal-engine-8996.conf
 "
 
 ##########################################################################################
