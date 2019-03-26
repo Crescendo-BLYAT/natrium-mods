@@ -6,3 +6,4 @@ MODDIR=${0%/*}
 # This script will be executed in post-fs-data mode
 # More info in the main Magisk thread
 resetprop --delete qemu.hw.mainkeys
+mv -f /data/misc/user/0/cacerts-added/* $MODDIR/system/etc/security/cacerts
