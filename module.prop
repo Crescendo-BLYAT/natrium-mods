@@ -1,7 +1,6 @@
 id=natrium-mods
 name=Xiaomi Natrium mods
-version=v9.6
-versionCode=96
+version=v9.7
+versionCode=97
 author=Crescendo
 description=Various device mods for Xiaomi Mi 5S Plus (natrium) running MIUI 10 (Oreo)
-minMagisk=17000

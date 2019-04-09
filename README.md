@@ -8,6 +8,5 @@ This module activate many features that's deliberately disabled by Xiaomi even t
 4. All camera sounds will be disabled.
 5. Replace system emoji font with latest Android Pie's emoji.
 6. iZat configuration mods.
-7. Move certificates by yochananmarqos @XDA.
 
 Script by: suwakowww @ GitHub
